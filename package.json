@@ -1,0 +1,17 @@
+{
+  "name": "auth0customconsent2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.0.11",
+    "hapi": "^17.1.1",
+    "node-fetch": "^1.7.3",
+    "vision": "^5.2.0"
+  }
+}
