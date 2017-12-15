@@ -17,7 +17,7 @@ const defaultConfig = {
   globalClientSecret: 'StvHIhw1Vu0ZrB5sPgRn850H6CLuXwV8UQcsNARHgZe87-F7xYL_g3tFTFhk4LTN'
 }
 
-process.env = Object.assign({}, process.env, defaultConfig);
+process.env = Object.assign({}, defaultConfig, process.env);
 
 const server = new Hapi.Server({
     host: process.env.host,
