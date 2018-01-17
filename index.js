@@ -8,13 +8,13 @@ const defaultConfig = {
   host: 'loopback.com',
   port: 9009,
   domain: 'atlassian.local.dev.auth0.com',
-  client_id: 'TVMddq94YUiqqOtRBnC3exVTP01C7du5',
+  client_id: 'lqHHT8YRhds1kLNB2YjbZ084xS36Q55i',
   redirect_uri: 'http://loopback.com:9009',
   audience: 'https://edge.atlassian.com',
   scope: 'manage:participants',
   introspectEndpoint: `https://atlassian.local.dev.auth0.com/state/introspect`,
   decisionEndpoint: `https://atlassian.local.dev.auth0.com/decision`,
-  globalClientSecret: 'StvHIhw1Vu0ZrB5sPgRn850H6CLuXwV8UQcsNARHgZe87-F7xYL_g3tFTFhk4LTN'
+  globalClientSecret: 'oykKi2v0zSUVXLCetiBeIyzqxwIavBSUccROGhOWDROT3DCS_Ybc7vZTNjeWWkrR'
 }
 
 process.env = Object.assign({}, process.env, defaultConfig);
