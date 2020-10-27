@@ -14,7 +14,7 @@ const defaultConfig = {
   scope: 'manage:participants',
   introspectEndpoint: `https://atlassian.local.dev.auth0.com/state/introspect`,
   decisionEndpoint: `https://atlassian.local.dev.auth0.com/decision`,
-  globalClientSecret: 'oykKi2v0zSUVXLCetiBeIyzqxwIavBSUccROGhOWDROT3DCS_Ybc7vZTNjeWWkrR'
+  globalClientSecret: '{SECRET}'
 }
 
 process.env = Object.assign({}, process.env, defaultConfig);
